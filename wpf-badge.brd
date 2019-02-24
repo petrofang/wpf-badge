@@ -483,96 +483,56 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.105" y="35.681" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="27.105" y="33.649" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SW1" library="1825910-6" package="SW_1825910-6-4" value="1825910-6" x="30.2" y="22.6" smashed="yes">
-<attribute name="COMMENT" value="1825910-6" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="CONFIGURATION_POLE-THROW" value="Single Pole - Single Throw" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="CONTACT_CURRENT_RATING" value="50 mA" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" FSM4JH=6MM TACT SWITCH, HIGH TEMP " x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="450-1650-ND" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1825910-6" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="25.835009375" y="26.043940625" size="0.800915625" layer="25"/>
-<attribute name="PACKAGE" value="None" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="TE_PURCHASE_URL" value="https://www.te.com/usa-en/product-1825910-6.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493" x="30.2" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="25.74968125" y="18.239690625" size="0.80005625" layer="27"/>
+<element name="SW1" library="1825910-6" package="SW_1825910-6-4" value="1825910-6" x="30.2" y="12.6" smashed="yes">
+<attribute name="COMMENT" value="1825910-6" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="CONFIGURATION_POLE-THROW" value="Single Pole - Single Throw" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="CONTACT_CURRENT_RATING" value="50 mA" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" FSM4JH=6MM TACT SWITCH, HIGH TEMP " x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="450-1650-ND" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE Connectivity" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1825910-6" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.835009375" y="16.043940625" size="0.800915625" layer="25"/>
+<attribute name="PACKAGE" value="None" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="TE_PURCHASE_URL" value="https://www.te.com/usa-en/product-1825910-6.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493" x="30.2" y="12.6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="25.74968125" y="8.239690625" size="0.80005625" layer="27"/>
 </element>
 </elements>
 <signals>
 <signal name="N$2">
 <contactref element="LED1" pad="K"/>
 <contactref element="R1" pad="1"/>
-<wire x1="36.9" y1="33.3" x2="35.1" y2="33.3" width="1" layer="1"/>
-<wire x1="37.8" y1="34.2" x2="36.9" y2="33.3" width="1" layer="1"/>
-<wire x1="35.1" y1="33.3" x2="34.65" y2="32.77" width="1" layer="1"/>
-<wire x1="37.8" y1="34.2" x2="37.95" y2="34.8" width="1" layer="1"/>
+<wire x1="34.65" y1="32.77" x2="37.95" y2="34.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="BATT1" pad="+"/>
 <contactref element="SW1" pad="3"/>
 <contactref element="SW1" pad="4"/>
-<wire x1="33.3" y1="20.7" x2="27" y2="20.7" width="1" layer="1"/>
-<wire x1="27" y1="20.7" x2="26.95" y2="20.35" width="1" layer="1"/>
-<wire x1="33.3" y1="20.7" x2="33.45" y2="20.35" width="1" layer="1"/>
-<wire x1="34.2" y1="18.9" x2="49.5" y2="18.9" width="1" layer="1"/>
-<wire x1="33.3" y1="19.8" x2="34.2" y2="18.9" width="1" layer="1"/>
-<wire x1="49.5" y1="18.9" x2="50.33" y2="18.12" width="1" layer="1"/>
-<wire x1="33.3" y1="19.8" x2="33.45" y2="20.35" width="1" layer="1"/>
+<wire x1="33.45" y1="10.35" x2="50.33" y2="18.12" width="0" layer="19" extent="1-1"/>
+<wire x1="26.95" y1="10.35" x2="33.45" y2="10.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED2" pad="K"/>
 <contactref element="R2" pad="2"/>
-<wire x1="27.9" y1="35.1" x2="27" y2="35.1" width="1" layer="1"/>
-<wire x1="29.7" y1="33.3" x2="27.9" y2="35.1" width="1" layer="1"/>
-<wire x1="29.7" y1="31.5" x2="29.7" y2="33.3" width="1" layer="1"/>
-<wire x1="27.9" y1="29.7" x2="29.7" y2="31.5" width="1" layer="1"/>
-<wire x1="27" y1="35.1" x2="26.47" y2="35.3" width="1" layer="1"/>
-<wire x1="27.9" y1="29.7" x2="27.09" y2="30" width="1" layer="1"/>
+<wire x1="27.09" y1="30" x2="26.47" y2="35.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="2"/>
 <contactref element="SW1" pad="1"/>
-<wire x1="29.7" y1="27.9" x2="27" y2="25.2" width="1" layer="16"/>
-<wire x1="29.7" y1="30.6" x2="29.7" y2="27.9" width="1" layer="16"/>
-<wire x1="27.9" y1="32.4" x2="29.7" y2="30.6" width="1" layer="16"/>
-<wire x1="27" y1="32.4" x2="27.9" y2="32.4" width="1" layer="16"/>
-<wire x1="27" y1="25.2" x2="26.95" y2="24.85" width="1" layer="16"/>
-<wire x1="27" y1="32.4" x2="27.03" y2="32.77" width="1" layer="16"/>
+<wire x1="26.95" y1="14.85" x2="27.03" y2="32.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R2" pad="1"/>
 <contactref element="SW1" pad="2"/>
-<wire x1="31.5" y1="27" x2="33.3" y2="25.2" width="1" layer="1"/>
-<wire x1="31.5" y1="27.9" x2="31.5" y2="27" width="1" layer="1"/>
-<wire x1="34.2" y1="30.6" x2="31.5" y2="27.9" width="1" layer="1"/>
-<wire x1="33.3" y1="25.2" x2="33.45" y2="24.85" width="1" layer="1"/>
-<wire x1="34.2" y1="30.6" x2="34.71" y2="30" width="1" layer="1"/>
+<wire x1="33.45" y1="14.85" x2="34.71" y2="30" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="BATT1" pad="-"/>
 <contactref element="LED1" pad="A"/>
 <contactref element="LED2" pad="A"/>
-<wire x1="24.3" y1="36.9" x2="24.3" y2="36" width="1" layer="1"/>
-<wire x1="25.2" y1="37.8" x2="24.3" y2="36.9" width="1" layer="1"/>
-<wire x1="38.7" y1="37.8" x2="25.2" y2="37.8" width="1" layer="1"/>
-<wire x1="40.5" y1="36" x2="38.7" y2="37.8" width="1" layer="1"/>
-<wire x1="40.5" y1="35.1" x2="40.5" y2="36" width="1" layer="1"/>
-<wire x1="24.3" y1="36" x2="23.93" y2="35.3" width="1" layer="1"/>
-<wire x1="40.5" y1="35.1" x2="40.49" y2="34.8" width="1" layer="1"/>
-<wire x1="22.5" y1="18.9" x2="5.4" y2="18.9" width="1" layer="16"/>
-<wire x1="26.1" y1="22.5" x2="22.5" y2="18.9" width="1" layer="16"/>
-<wire x1="28.8" y1="22.5" x2="26.1" y2="22.5" width="1" layer="16"/>
-<wire x1="30.6" y1="24.3" x2="28.8" y2="22.5" width="1" layer="16"/>
-<wire x1="30.6" y1="26.1" x2="30.6" y2="24.3" width="1" layer="16"/>
-<wire x1="31.5" y1="27" x2="30.6" y2="26.1" width="1" layer="16"/>
-<wire x1="31.5" y1="33.3" x2="31.5" y2="27" width="1" layer="16"/>
-<wire x1="27" y1="37.8" x2="31.5" y2="33.3" width="1" layer="16"/>
-<wire x1="25.2" y1="37.8" x2="27" y2="37.8" width="1" layer="16"/>
-<wire x1="24.3" y1="36.9" x2="25.2" y2="37.8" width="1" layer="16"/>
-<wire x1="24.3" y1="36" x2="24.3" y2="36.9" width="1" layer="16"/>
-<wire x1="5.4" y1="18.9" x2="5.33" y2="18.12" width="1" layer="16"/>
-<wire x1="24.3" y1="36" x2="23.93" y2="35.3" width="1" layer="16"/>
+<wire x1="23.93" y1="35.3" x2="40.49" y2="34.8" width="0" layer="19" extent="1-1"/>
+<wire x1="5.33" y1="18.12" x2="23.93" y2="35.3" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

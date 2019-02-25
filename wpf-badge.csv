@@ -1,0 +1,7 @@
+"Part";"Value";"Device";"Package";"Description";"COMMENT";"CONFIGURATION_POLE-THROW";"CONTACT_CURRENT_RATING";"DESCRIPTION";"DIGI-KEY_PART_NUMBER";"DIGI-KEY_PURCHASE_URL";"EU_ROHS_COMPLIANCE";"MF";"MP";"PACKAGE";"TE_PURCHASE_URL";
+"BATT1";"AAA";"AAA";"12BH412";"AAA PC pin holder";"";"";"";"";"";"";"";"";"";"";"";
+"LED1";"red";"LED3MM";"LED3MM";"LED";"";"";"";"";"";"";"";"";"";"";"";
+"LED2";"red";"LED3MM";"LED3MM";"LED";"";"";"";"";"";"";"";"";"";"";"";
+"R1";"2200";"R-US_0204/7";"0204/7";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";
+"R2";"2200";"R-US_0204/7";"0204/7";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";
+"SW1";"1825910-6";"1825910-6";"SW_1825910-6-4";"Switch Tactile OFF (ON) SPST Round Button PC Pins 0.05A 24VDC 100000Cycles 1.57N Thru-Hole Loose";"1825910-6";"Single Pole - Single Throw";"50 mA";" FSM4JH=6MM TACT SWITCH, HIGH TEMP ";"450-1650-ND";"https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol";"Compliant";"TE Connectivity";"1825910-6";"None";"https://www.te.com/usa-en/product-1825910-6.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493";
